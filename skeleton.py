@@ -9,7 +9,7 @@ mp_drawing = mp.solutions.drawing_utils
 pose = mp_pose.Pose()
 
 # Перехоплення відео з камери ( основна камера - 0, додаткова камера - 1)
-cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 # циклічний процес обробки відео з камери
 while cap.isOpened():
